@@ -27,7 +27,8 @@ Ab_info 2022/2023 è il repositorio ove sono contenuti i due codici creati nel l
 
 ## Modo di utilizzo
 
-Scaricati i set di dati dal link: https://adlibitum.oats.inaf.it/monaco/etc/perAbInf.tgz e sostituire opportunamente nella quarta cella del codice "Singolo" e nella quinta cella del codice "Multipoli" quanto c'è dopo "fname=", ossia si cambi il percorso per accedere al file.
+Scaricati i set di dati dal link: https://adlibitum.oats.inaf.it/monaco/etc/perAbInf.tgz, inserire nella tredicesima riga di entrambi i codici il numero relativo (1, 2 o 3) al test che si desidera e sostituire opportunamente nella ventottesima riga del codice "monopolo" e nella trentesima del codice "monopolo" quanto c'è dopo "fname=", ossia si cambi il percorso per accedere al file.
+Fatto ciò il codice è pronto per essere eseguito.
 
  Il programma visualizzerà i grafici delle matrici di covarianza teorica e numerica, oltre che il grafico dei residui.
 
