@@ -31,6 +31,8 @@ Scaricati i set di dati dal link: https://adlibitum.oats.inaf.it/monaco/etc/perA
 Fatto ciò il codice è pronto per essere eseguito.
 
  Il programma visualizzerà i grafici delle matrici di covarianza teorica e numerica, oltre che il grafico dei residui.
+ 
+ In "script bash" invece si troveranno una serie di comandi per copiare i due file da una directory a un'altra. Di seguito lo script si ha un esempio di applicazione per meglio chiarire come usarlo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
