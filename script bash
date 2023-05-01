@@ -1,9 +1,13 @@
 #Questo che segue è un piccolo script bash per copiare due file da una directory nota ad un'altra
 
-source1="INSERIRE DIRECTORY OVE SI TROVA IL PRIMO DEI FILE DA COPIARE"
-source2="INSERIRE DIRECTORY OVE SI TROVA IL SECONDO DEI FILE DA COPIARE"
-destination="INSERIRE DIRECTORY OVE SI VUOLE COPIARE IL FILE"
-fname1="INSERIRE NOME DEL PRIMO FILE CHE SI VUOLE COPIARE"
-fname2="INSERIRE NOME DEL SECONDO FILE CHE SI VUOLE COPIARE"
+# specificare i nomi dei due file
+file1="nome_file1"
+file2="nome_file2"
 
-cp source1/fname1 source2/fname2 destination
+# specificare la directory di origine e di destinazione
+dir_origine="percorso directory di origine"
+dir_destinazione="percorso directory di destinazione/"
+
+# effettuare la copia dei due file specificati
+cp "${dir_origine}${file1}" "${dir_destinazione}"
+cp "${dir_origine}${file2}" "${dir_destinazione}"
