@@ -5,9 +5,22 @@ file1="nome_file1"
 file2="nome_file2"
 
 # specificare la directory di origine e di destinazione
-dir_origine="percorso directory di origine"
-dir_destinazione="percorso directory di destinazione/"
+sorgente="percorso directory di origine"
+destinazione="percorso directory di destinazione/"
 
 # effettuare la copia dei due file specificati
-cp "${dir_origine}${file1}" "${dir_destinazione}"
-cp "${dir_origine}${file2}" "${dir_destinazione}"
+cp "${dir_origine}/${file1}" "${dir_destinazione}"
+cp "${dir_origine}/${file2}" "${dir_destinazione}"
+
+
+
+
+
+[#Esempio di applicazione del codice sopra
+
+file1="monopolo.py"
+file2="Multipoly.py"
+sorgente="/home/marco/Scaricati"
+destinazione="/home/marco/Astrofisica"
+cp "$sorgente/$file1" "$destinazione"
+cp "$sorgente/$file2" "$destinazione"
